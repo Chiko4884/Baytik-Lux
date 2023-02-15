@@ -1,0 +1,59 @@
+*{
+    max-width: 1440px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.block-partners{
+    max-width: 1440px;
+    margin: auto;
+    margin-top: -36px;
+    height: 240px;
+    background-color: #fff;
+
+    h2{
+        width: 325px;
+        height: 50px;
+        color: #253659;
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        align-items: center;
+        margin-left: 155px;
+        margin-top: 40px;
+        position: relative;
+        color: #253659;
+        padding-top: 20px;
+    }
+    .icon-partners{
+        width: 675px;
+        height: 105px;
+        margin-top: 13px;
+        margin-left: 155px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .img-p{
+        width: 480px;
+        height: 240px;
+        top: -408px;
+        left: 960px;
+        position: relative;
+        z-index: 499;
+    }
+    .gradient{
+        position: relative;
+        z-index: 500;
+        width: 480px;
+        height: 240px;
+        left: 480px;
+        top: -168px;
+        background: linear-gradient(90deg, #FFFFFF 13.91%, rgba(255, 255, 255, 0) 96.09%);
+    }
+
+
+}
+

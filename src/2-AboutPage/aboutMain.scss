@@ -1,0 +1,204 @@
+@import '..//baytik-lux/src/variables';
+
+$w_h: calc(1440px/710px);
+$w_: 1440px;
+$h_: 710px;
+*{
+    max-width: 1440px;
+    margin: auto;
+    box-sizing: border-box;
+    @include breakpoint(w1366){
+        max-width: 1366px;
+    }
+    @include breakpoint(w1280){
+        max-width: 1280px;
+    }
+    @include breakpoint(w1024){
+        max-width: 1024px;
+    }
+    @include breakpoint(w834){
+        max-width: 834px;
+    }
+    @include breakpoint(w568){
+        max-width: 568px;
+    }
+    @include breakpoint(w375){
+        max-width: 375px;
+    }
+}
+
+.AboutMain{
+    max-width: 1440px;
+    max-height: 710px;
+    margin: auto;
+    width: 1440px;
+    height: 100%;
+    background-color: rgb(135, 206, 250);
+    display: block;
+    @include breakpoint(w1366){
+        max-width: 1366px;
+        height: calc(1366px / $w_h);
+    }
+    @include breakpoint(w1280){
+        max-width: 1280px;
+        height: calc(1280px/$w_h);
+    }
+    @include breakpoint(w1024){
+        max-width: 1024px;
+        height: calc(1024px/$w_h);
+    }
+    @include breakpoint(w834){
+        max-width: 834px;
+        height: calc(834px/$w_h);
+    }
+    @include breakpoint(w568){
+        max-width: 568px;
+        height: calc(568px/$w_h);
+    }
+    @include breakpoint(w375){
+        max-width: 375px;
+        height: calc(375px/$w_h);
+    }
+    .dom2{
+        // display: none;
+        z-index: 999;
+        width: 100%;
+        height: 710px;
+        position: relative;
+        object-fit: cover;
+        @include breakpoint(w1366){
+            max-width: 1366px;
+            height: calc(1366px/$w_h);
+        }
+        @include breakpoint(w1280){
+            max-width: 1280px;
+            height: calc(1280px/$w_h);
+        }
+        @include breakpoint(w1024){
+            max-width: 1024px;
+            height: calc(1024px/$w_h);
+        }
+        @include breakpoint(w834){
+            max-width: 834px;
+            height: calc(834px/$w_h);
+        }
+        @include breakpoint(w568){
+            max-width: 568px;
+            height: calc(568px/$w_h);
+        }
+        @include breakpoint(w375){
+            max-width: 375px;
+            height: calc(375px/$w_h);
+        }
+    }
+    .der2{
+        width: 100%;
+        height: 710px;
+        position: relative;
+        z-index: 12999;
+        top: -720px;
+        left: 0px;
+        object-fit: cover;
+        @include breakpoint(w1366){
+            max-width: 1366px;
+            height: calc(1366px/($w_/$h_));
+        }
+        @include breakpoint(w1280){
+            max-width: 1280px;
+            height: calc(1280px/($w_/$h_));
+        }
+        @include breakpoint(w1024){
+            max-width: 1024px;
+            height: calc(1024px/($w_/$h_));
+            top: -825px;
+        }
+        @include breakpoint(w834){
+            max-width: 834px;
+            height: calc(834px/($w_/$h_));
+            top: -725px;
+        }
+        @include breakpoint(w568){
+            max-width: 568px;
+            height: calc(568px/($w_/$h_));
+            top: -598px;
+        }
+        @include breakpoint(w375){
+            max-width: 375px;
+            height: calc(375px/($w_/$h_));
+            top: -503px;
+        }
+    }
+    .h1-txt{
+        top: -1210px;
+        width: 823px;
+        height: 180px;
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 64px;
+        position: relative;
+        z-index: 1000001;
+        color: #FFFFFF;
+        align-items: center;
+        text-align:center;
+    }
+    .icon-banner{
+        cursor: pointer;
+        width: 30px;
+        height: 60px;
+        top: -1230px;
+        position: relative;
+        z-index: 1000001;
+        left: 700px;
+        border-radius: 15px;
+        border: 2px solid #FFFFFF;
+        background: none;
+        background-image: url(../../public/img/banner.svg);
+        background-position: center;
+        &:hover{
+            transform: scale(1.1);
+        }
+        &:active{
+            rotate: (180deg);         
+        }
+
+    }
+    .open-chat{
+        top: -980px;
+        left: 1320px;
+        &:hover{
+            transform: scale(1.1);
+        }
+        @include breakpoint (w1366) {
+            left: 1020px;  
+            top:-1400px;
+        }
+        @include breakpoint (w1280) {
+            left: 920px;  
+            top:-1350px;
+        }
+        @include breakpoint (w1024) {
+            left: 780px; 
+            top:-1190px; 
+        }
+        @include breakpoint (w834) {
+            left: 590px; 
+            top:-1070px;  
+        }
+        @include breakpoint (w568) {
+            left: 375px; 
+            top:-840px; 
+            width: 45px;
+            height: 45px;  
+        }
+        @include breakpoint (w375) {
+            left: 240px; 
+            top:-700px; 
+            width: 40px;
+            height: 40px;  
+        }
+    }
+}
+
+
+

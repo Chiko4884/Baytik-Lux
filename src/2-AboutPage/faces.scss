@@ -1,0 +1,139 @@
+
+@import '..//baytik-lux/src/variables';
+
+$w_h: calc(1440px/900px);
+$w_: 1440px;
+$h_: 900px;
+$h9: 900px;
+
+*{
+    max-width: 1440px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.face-fon{
+    z-index: 0;
+    width: 100%;
+    height: 900px;
+    position: relative;
+    object-fit: cover;
+}
+.faces{
+    max-width: 1440px;
+    max-height: 900px;
+    margin: auto;
+    width: 1440px;
+    height: 100%;
+    hr{
+        width: 240px;
+        border: none;
+        border-top: 0.5px #009EE3 solid;
+        margin-left: 0;
+        margin-top: 5px;
+        margin-bottom: 15px;  
+    }
+}
+
+.tema{
+    top: -850px;
+    left: 400px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    position: relative;
+    z-index: 10;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFFFFF;
+}
+
+.Marat{
+    width: 400px;
+    height: 240px;
+    background: rgba(37, 54, 89, 0.8);
+    position: relative;
+    z-index: 5;
+    top: -760px;
+    left: -320px;
+    flex-wrap: wrap;
+}
+.foto-marat{
+    width: 100px;
+    height: 140px;
+    top: -70px;
+    right: 50px;
+    position: relative;
+}
+.Darya{
+    width: 400px;
+    height: 140px;
+    background: rgba(37, 54, 89, 0.8);
+    position: relative;
+    z-index: 5;
+    top: -900px;
+    left: 380px;
+    flex-wrap: wrap;
+}
+.foto-darya{
+    width: 100px;
+    height: 140px;
+    top: -70px;
+    right: 50px;
+    position: relative;
+}
+.Aleksey{
+    width: 400px;
+    height: 160px;
+    background: rgba(37, 54, 89, 0.8);
+    position: relative;
+    z-index: 5;
+    top: -700px;
+    left: -180px;
+    flex-wrap: wrap;
+}
+.foto-aleksey{
+    width: 100px;
+    height: 140px;
+    top: -70px;
+    right: 50px;
+    position: relative;
+}
+
+.name_{
+    width: 166px;
+    height: 21px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    position: relative;
+    top: -120px;
+    margin-left: 88px;
+}
+.position_{
+        width: 160px;
+        height: 16px;
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        color: #FFFFFF;
+        position: relative;
+        top: -120px;
+        margin-left: 88px;
+}
+.info_{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    position: relative;
+    top: -110px;
+    margin-left: 20px;
+    margin-right: 46px;
+    margin-top: 20px;
+
+}

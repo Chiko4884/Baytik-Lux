@@ -1,0 +1,201 @@
+
+@import '..//baytik-lux/src/variables';
+
+$w_h: calc(1440px/700px);
+$w_: 1440px;
+$h_: 700px;
+$h9: 900px;
+
+    .callback-form{
+        width: 440px;
+        height: 420px;
+        position:fixed;
+        top: 20%;
+        left: 40%;
+        background-color: rgba(37, 54, 89, 0.95);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 100000000;
+        @include breakpoint (w568){
+            top: 20%;
+            left: 5%;
+        }
+        @include breakpoint (w375){
+            top: 10%;
+            left: 1%;
+            width: 340px;
+        }
+        .h2Form{
+            width: 307px;
+            height: 68px;
+            font-family: 'Raleway', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            align-items: center;
+            text-align: left;
+            line-height: 140%;
+            justify-content: start;
+            color: white;
+            top: 40px;
+            left: -20px;
+            margin-bottom: 100px;
+            position: relative;
+            z-index:inherit;
+            @include breakpoint (w375){
+                width: 275px;
+                margin-left: 40px;
+            }
+        }
+    
+        .your-name{
+            width: 300px;
+            height: 60px;
+            margin-left: 40px;
+            margin-bottom: 20px;
+            font-family: 'Open Sans', sans-serif;
+            font-style: normal;
+            color: #FFFFFF;
+            font-weight: 400;
+            font-size: 14px;
+            border: 1px solid #FFFFFF;
+            background-color: rgba(37, 54, 89, 0.2);
+            @include breakpoint (w375){
+                margin-left: 20px;
+            }
+        }
+        .controller{
+            // justify-content: flex-start;
+            background-color: rgba(37, 54, 89, 0.2);
+            width: 300px;
+            height: 60px;
+            margin-left: 40px;
+            margin-bottom: 20px;
+            border: 1px solid #FFFFFF;
+            @include breakpoint (w375){
+                margin-left: 20px;
+            }
+
+            .PhoneInputInput{
+                font-family: 'Open Sans', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                color: #FFFFFF;
+                align-items: center;
+                width: 288px;
+                height: 30px;
+                margin-left: 10px;
+                background-color: rgba(37, 54, 89, 0.2);
+                border-color: rgba(37, 54, 89, 0.2);
+                .active{
+                    border-color: rgba(37, 54, 89, 0.2);
+                }
+
+            }
+        }
+        .error-message{
+            font-family: 'Open Sans', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            margin-left: 50px;
+            position:relative;
+            z-index: 10000000;
+            color: rgb(240, 65, 89);
+        }
+        .phoneInput{
+            align-items: center;
+            justify-content: center;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        
+        .btn{
+            width: 217px;
+            height: 60px;
+            margin-left: 40px;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            color: #253659;
+            z-index:1000;
+            @include breakpoint (w375){
+                margin-left: 60px;
+            }
+        }
+
+        
+        
+    }
+    .open-call{
+        cursor: pointer;
+        top: -1800px;
+        left: 170px;
+        position: relative;
+        z-index: 1000001;
+        width: 200px;
+        height: 59px;
+        background: #253659;
+        border: 1px solid #253659;
+        border-radius: 1px;
+        color: #FFFFFF;
+        // margin-left: 2px;
+        font-size: 18px;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        // justify-content: space-between;
+        justify-content: center;
+        &:hover{
+           scale: 1.03;
+        }
+        @include breakpoint (w1366) {
+            left: 155px;  
+            top: -1730px;
+            width: 190px;
+            height: 50px;
+        }
+        @include breakpoint (w1280) {
+            left: 112px;  
+            top: -1650px;
+        }
+        @include breakpoint (w1024) {
+            left: 160px;
+            top: -1430px;
+            width: 130px;
+            height: 40px;
+            font-size: 14px;
+        }
+        @include breakpoint (w834) {
+            left: 100px;  
+            top: -1240px;
+        }
+        @include breakpoint (w568) {
+            left: 60px;  
+            top: -1010px;
+            width: 100px;
+            height: 30px;
+            font-size: 12px;
+        }
+
+        @include breakpoint (w375) {
+            left: 125px;  
+            top: -774px;
+            width: 90px;
+            height: 25px;
+            font-size: 10px;
+        }
+    }
+    .overlayCall{
+    right: 20%;
+    top: 0%;
+    width: 1000vw;
+    height: 1000vh;
+    background-color: rgba(171, 183, 207, 0);
+    position: absolute;
+    z-index: 10000000;
+    // border: 1px solid red;
+    }

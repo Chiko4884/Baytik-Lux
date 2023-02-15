@@ -1,0 +1,126 @@
+*{
+    max-width: 1440px;
+    margin: auto;
+    padding: 0;
+    // box-sizing: border-box;
+}
+
+.formBlock{
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 500px;
+    // border: 1px solid rgb(160, 199, 235);
+    position: relative;
+    top: -10px;
+    .user-info-form{
+        width: 440px;
+        height: 420px;
+        position:relative;
+        top: -560px;
+        left: 445px;
+        background-color: rgba(37, 54, 89, 0.8);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .h2Form{
+            width: 307px;
+            height: 68px;
+            font-family: 'Raleway', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            align-items: center;
+            text-align: left;
+            line-height: 140%;
+            justify-content: start;
+            color: white;
+            top: 40px;
+            left: -20px;
+            margin-bottom: 60px;
+            position: relative;
+        }
+    
+        .your-name{
+            width: 300px;
+            height: 60px;
+            margin-left: 40px;
+            margin-bottom: 20px;
+            font-family: 'Open Sans', sans-serif;
+            font-style: normal;
+            color: #FFFFFF;
+            font-weight: 400;
+            font-size: 14px;
+            border: 1px solid #FFFFFF;
+            background-color: rgba(37, 54, 89, 0.2);
+        }
+        .controller{
+            // justify-content: flex-start;
+            background-color: rgba(37, 54, 89, 0.2);
+            width: 300px;
+            height: 60px;
+            margin-left: 40px;
+            margin-bottom: 20px;
+            border: 1px solid #FFFFFF;
+
+
+            .PhoneInputInput{
+                font-family: 'Open Sans', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                color: #FFFFFF;
+                align-items: center;
+                width: 288px;
+                height: 30px;
+                margin-left: 10px;
+                background-color: rgba(37, 54, 89, 0.2);
+                border-color: rgba(37, 54, 89, 0.2);
+                .active{
+                    border-color: rgba(37, 54, 89, 0.2);
+                }
+            }
+        }
+        .error-message{
+            font-family: 'Open Sans', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            margin-left: 50px;
+            position:relative;
+            z-index: 10000000;
+            color: rgb(240, 65, 89);
+        }
+        .phoneInput{
+            align-items: center;
+            justify-content: center;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        
+        .btn{
+            width: 217px;
+            height: 60px;
+            margin-left: 40px;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            color: #253659;
+        }
+        
+    }
+}
+.fon{
+    width: 1440px;
+    height: auto;
+    position: relative;
+    object-fit:cover;
+    display: flex;
+}
+.logo{
+    width: 600px;
+    height: 88px;
+    top: -294px;
+    left: 154px;
+    position: relative;
+}

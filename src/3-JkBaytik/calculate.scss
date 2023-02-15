@@ -1,0 +1,443 @@
+@import '..//baytik-lux/src/variables';
+
+$w_h: calc(1440px/800px);
+$w_: 1440px;
+$h_: 800px;
+*{
+    max-width: 1440px;
+    margin: auto;
+    box-sizing: border-box;
+
+    @include breakpoint(w1366){
+        max-width: 1366px;
+    }
+    @include breakpoint(w1280){
+        max-width: 1280px;
+    }
+    @include breakpoint(w1024){
+        max-width: 1024px;
+    }
+    @include breakpoint(w834){
+        max-width: 834px;
+    }
+    @include breakpoint(w568){
+        max-width: 568px;
+    }
+    @include breakpoint(w375){
+        max-width: 375px;
+    }
+}
+
+.calculate-bl{
+    max-width: 1440px;
+    max-height: 800px;
+    margin: auto;
+    width: 1440px;
+    height: 100%;
+    background-color: #fff;
+    align-items: center;
+    text-align: center;
+    @include breakpoint(w1366){
+        max-width: 1366px;
+        height: calc(1366px / $w_h);
+    }
+    @include breakpoint(w1280){
+        max-width: 1280px;
+        height: calc(1280px/$w_h);
+    }
+    @include breakpoint(w1024){
+        max-width: 1024px;
+        height: calc(1024px/$w_h);
+    }
+    @include breakpoint(w834){
+        max-width: 834px;
+        height: calc(834px/$w_h);
+    }
+    @include breakpoint(w568){
+        max-width: 568px;
+        height: calc(568px/$w_h);
+    }
+    @include breakpoint(w375){
+        max-width: 375px;
+        height: calc(375px/$w_h);
+    }
+
+}
+.bl-calc{
+    width: 1130px;
+    height: 620px;
+    display: inline-block;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.calculate{
+    width: 555px;
+    height: 620px;
+    border: 1px solid #253659;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 43px;
+    padding-bottom: 41px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+    .cal-radio {
+        opacity: 0.01;
+        height: 60px;
+        position: absolute;
+        &:checked + label {
+            background-color: #253659;
+            color: #fff;
+        }
+    }
+    .cal-lbl{
+        cursor: pointer; 
+        width: 220px;
+        height: 60px;
+        border: 1px solid #000000;
+        padding-top: 16px;
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 140%;
+        color: #253659;
+        display: inline-block;
+        img{
+            margin-right: 10px;
+        }
+    }
+}
+
+.polzunok{
+    width: 469px;
+    height: 153px;
+    margin-top: 24px;
+    justify-content: left;
+    text-align: left;
+    .txt-price{
+        font-family: 'Open Sans' sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 140%;  
+        margin-left: 0px;
+    }
+    
+    .block-polz{
+        padding-top: 20px;
+        width: 469px;
+        height: 94px;
+        border: 1px solid #253659;
+        margin-bottom: 9px;
+    input[type="range"] {
+        cursor: pointer;
+        position: relative;
+        width: 429px;
+        height: 1px;
+        appearance: none;
+        -webkit-appearance: none;
+        outline: none;
+        background: #adb0b1;
+        margin-left: 20px;
+        &::-webkit-slider-thumb{
+            -webkit-appearance: none;
+            -moz-appearance: none;
+             appearance: none;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border: 3px solid rgb(199, 204, 204);
+            background: #253659;
+
+        }
+        }
+    output{
+        position: relative;
+        font-family: 'Open Sans' sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        color: #253659;
+        padding-left: 20px;
+    }
+    }
+
+
+
+         .bl-radio-valuta{
+            position:absolute;
+            display: flex;
+            flex-direction: row;
+        .flex {
+            display: flex;
+            flex-direction: row;
+            text-align: left;
+            margin-right: 20px;
+            .valuta-lbl{
+                font-family: 'Open Sans' sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                margin-left: 13px;
+                padding: auto;
+            }
+            .valuta-radio {
+                cursor: pointer;
+                /* remove standard background appearance */
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                /* create custom radiobutton appearance */
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                /* background-color only for content */
+                background-clip: content-box;
+                border: 3px solid rgba(37, 54, 89, 0.2);
+                background-color: #253659;
+                border-radius: 50%;
+                &:checked{
+                    background-color: #009EE3; 
+                    border: 3px solid rgba(0, 158, 227, 0.2);
+                }
+             }
+
+          }
+        }
+
+
+}
+
+.vznos-bl{
+    text-align: left;
+    .vznos-lbl{
+        font-family: 'Open Sans' sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        color: #253659;  
+    }
+    .prosent-btns{
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        margin-right: 20px;
+        .vznos-radio {
+            opacity: 0.01;
+            height: 60px;
+            position: absolute;
+            &:checked + label {
+                background-color: #253659;
+                color: #fff;
+            }
+        }
+        .vznos-lbl-btn{
+            cursor: pointer; 
+            width: 93px;
+            height: 60px;
+            border: 1px solid #000000;
+            padding-top: 12px;
+            font-family: 'Open Sans', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 140%;
+            color: #253659;
+            display: inline-block;
+            text-align: center;
+            margin-right: 10px;
+        }
+    }
+    .vznos-result{
+        width: 160px;
+        height: 60px;
+        padding-top: 12px;
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        background: rgba(37, 54, 89, 0.1);
+        color: #009EE3;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.bl-select{
+    text-align: left;
+    .srok-lbl{
+        font-family: 'Open Sans' sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        color: #253659; 
+    
+    }
+    select{
+        font-family: 'Open Sans' sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        color: #253659; 
+        width: 469px;
+        height: 60px;
+        // option{
+        //     font-family: 'Open Sans' sans-serif;
+        //     font-style: normal;
+        //     font-weight: 600;
+        //     font-size: 18px;
+        //     color: #253659; 
+        // }
+    
+    }
+}
+
+
+
+
+.btn-calc{
+    cursor: pointer;
+    width: 469px;
+    height: 60px;
+    font-family: 'Open Sans' sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: #253659;
+    &:hover{
+        transform: scale(0.98);
+    }
+}
+
+.kurs{
+    width: 555px;
+    height: 300px;
+    background: rgba(37, 54, 89, 0.1);
+    float: left;
+    margin-left: 20px;
+    padding: 40px 40px 40px 40px;
+    justify-content: space-between;
+    .head-bl{
+        display: flex;
+        justify-content:space-between;
+        margin-bottom: 27px;
+        h6{
+            font-family: 'Open Sans' sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 140%;
+            color: #253659;
+        }
+        p{
+        font-family: 'Open Sans' sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 140%;
+        color: #253659;
+        }
+    }
+    .kurs-v{
+        display: flex;
+        justify-content:space-between;
+        width: 475px;
+        height: 34px;
+        h3{
+            font-family: 'Open Sans' sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 140%;
+            color: #253659;
+            margin: 0;
+            padding: 0;
+        }
+        h4{
+            font-family: 'Open Sans' sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 140%;
+            color: #009EE3;
+            text-align: right;
+            margin: 0;
+            padding: 0;
+        }
+    }
+.from-site{
+    display: flex;
+    justify-content: start;
+    p{
+        font-family: 'Open Sans' sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 140%;
+        color: #000000;
+    }
+    a{
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 140%;
+        color: #009EE3;
+        margin-left: 15px;
+    }
+}
+ hr{
+    margin-bottom: 20px;
+    border: 0.1px solid #253659;
+    border-top: 0;
+    
+ }
+}
+.results{
+    width: 555px;
+    height: 300px;
+    background: rgba(37, 54, 89, 0.1);
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    padding: 20px 40px 20px 40px;
+    justify-content: space-between;
+    .head-res{
+        font-family: 'Open Sans' sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        color: #253659;
+        text-align-last: left;
+        margin-bottom: 20px;
+    }
+    .results_{
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        margin-bottom: 20px;
+        h3{
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 140%;
+            color: #253659;
+            margin: 0;
+        }
+        h4{
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 140%;
+            color: #009EE3; 
+            margin: 0;
+        }
+    }
+}

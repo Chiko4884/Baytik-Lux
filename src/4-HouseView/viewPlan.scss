@@ -1,0 +1,114 @@
+@import '..//baytik-lux/src/variables';
+$w_h: calc(1440px/1500px);
+$w_: 1440px;
+$h_: 1550px;
+
+*{
+    max-width: 1440px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.o-proj-bl{
+  padding-top: 35px;
+    width: 1440px;
+    height: 1500px;
+    display: block;
+    // background-color: #fffefe;
+    position: relative;
+    z-index: 1;
+  }
+  .column-r{
+    width: 654px;
+    height: 1500px;
+    // border:  1px solid red;
+    margin-left: 60px;
+  }
+.p-1{
+    font-family: 'Open Sans' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #253659;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.p-2{
+    font-family: 'Open Sans' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #253659;
+    margin-bottom: 120px;
+}
+  .sl-img{
+    img{
+        width: 604px;
+        height: 480px;
+        object-fit: cover;
+        position: relative;
+        z-index: 12;
+        
+    }
+}  
+  .plan-style{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    // border: 1px solid red;
+    .slick-slide{
+        margin: 0 30px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .slick-track{
+        display: flex;
+    }
+    .slick-next:before {
+        content: '❯';
+        font-size: 25px;
+        position: relative;
+        z-index: 10000;
+        color: #253659;
+       }
+       .slick-prev:before {
+        content: '❮';
+        font-size: 25px;
+        position: relative;
+        z-index: 10000;
+        color: #253659;
+       }
+       .slick-dots li button:before {
+         content: ''; /* <-- Вот этот символ */
+        }
+  }
+  .h1-1{
+    font-family: 'Raleway' sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 140%;
+    margin-top: 100px;
+    margin-bottom: 10px;
+  }
+  .p-3{
+    font-family: 'Open Sans' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #253659;
+    margin-bottom: 20px;
+}
+.p-4{
+    font-family: 'Open Sans' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #253659;
+
+}

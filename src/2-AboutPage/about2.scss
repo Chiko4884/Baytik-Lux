@@ -1,0 +1,159 @@
+
+@import '..//baytik-lux/src/variables';
+
+$w_h: calc(1440px/670px);
+$w_: 1440px;
+$h_: 670px;
+
+*{
+    max-width: 1440px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.about2{
+    max-width: 1440px;
+    margin: auto;
+    height: 670px;
+    background-color: #fff;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.company2{
+width: 1050px;
+height: 330px;
+z-index: 110;
+position: relative;
+top: 180px;
+text-align: center;
+align-items: center;
+    h3{
+        width: 209px;
+        height: 42px;
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        position: relative;
+        z-index: 110;
+        padding-bottom: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+        color: #253659;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+    
+        .txt_p{
+            display: inline;
+            text-align:center;
+            width: 100%;
+            height: 100;
+            font-family: 'Open Sans', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 25px;
+            position: relative;
+            z-index: 110;
+            flex-wrap: wrap;
+            display: flex;
+            color: #253659;
+        }
+}
+.statistika2{
+    width: 922px;
+    height: 118px;
+    position:relative;
+    z-index: 11000;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    .icon1-2 {
+        width: 160px;
+        height: 117px;
+        text-align: center;
+        margin-top: 0;
+        img{
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+        p{
+            font-family: 'Open Sans', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px; 
+            color: #253659;
+        }
+    }
+    .icon2-2 {
+        width: 123px;
+        height: 98px;
+        text-align: center;
+        margin-top: 0px;
+        img{
+            width: 60px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+        p{
+            font-family: 'Open Sans', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px; 
+            color: #253659;;
+        }
+    }
+    .icon3-2 {
+        width: 181px;
+        height: 98px;
+        text-align: center;
+        margin-top: 0px;
+        img{
+            width: 44px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+        p{
+            font-family: 'Open Sans', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px; 
+            color: #253659;;
+        }
+    }
+    .icon4-2 {
+        width: 158px;
+        height: 107px;
+        text-align: center;
+        margin-top: 0px;
+        img{
+            width: 68px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+        p{
+            font-family: 'Open Sans', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px; 
+            color: #253659;;
+        }
+    }
+}
+
+
+    
