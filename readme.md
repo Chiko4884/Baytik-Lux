@@ -1,3 +1,3 @@
 # Baytik lux
 
-Stazhirovka Navis
+Baytik-Lux - project intern at Navis academy
