@@ -58,7 +58,7 @@ function Hide_div (){
 
     return(
         <div className="view1">
-            <img className='der-view' src='/img/derevo-view.svg' alt="der"/>
+            <img className='der-view' src='./img/derevo-view.svg' alt="der"/>
             <div className="foto_and_btns">
             <img className="left-foto" src="./img/house-view.png" alt="img"/>
             <div className="seryy1">

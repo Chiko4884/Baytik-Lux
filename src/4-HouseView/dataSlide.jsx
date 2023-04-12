@@ -3,7 +3,7 @@ export const dataSlide = [
 
     {
         "id": 1,
-        "image": "../img/interier6.png",
+        "image": "./img/interier6.png",
     },
     {
         "id": 2,

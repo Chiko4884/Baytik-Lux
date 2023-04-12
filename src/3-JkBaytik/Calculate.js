@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import './calculate.scss';
 // import {} from 'xml-js'
 import { parseString } from 'react-native-xml2js';
+import axios from "axios";
 
 let convert = require('xml-js');
 
@@ -14,21 +15,20 @@ function Calculate(){
     let [rub_kurs, setRub_kurs] = useState();
     
         useEffect(() => {
-                    fetch('https://www.nbkr.kg/XML/daily.xml' ) //, {mode: 'no-cors'} 
+                    fetch('http://localhost:3002/nbkr' ) //, {mode: 'no-cors'} //'https://www.nbkr.kg/XML/daily.xml'
                     .then(response=>{
-                        return response.text();})
-                    .then(responsetxt => {parseString(responsetxt, function (err, result) {                       
-                    let xml = responsetxt
-                    const nbkr_json = convert.xml2json(xml, {compact: true, spaces: 4});
-                    // let nbkr_json2 = convert.xml2json(xml, {compact: false, spaces: 4});  
-                    console.log(xml)
-        setMyjson(myjson = JSON.parse(nbkr_json)) 
-        setDate_nbkr(date_nbkr=myjson.CurrencyRates._attributes.Date)
-        setUsd_kurs(usd_kurs = parseFloat(myjson.CurrencyRates.Currency[0].Value._text.replace(',' , '.')).toFixed(2))       
-        setEur_kurs(eur_kurs = parseFloat(myjson.CurrencyRates.Currency[1].Value._text.replace(',' , '.')).toFixed(2))       
-        setRub_kurs(rub_kurs = parseFloat(myjson.CurrencyRates.Currency[3].Value._text.replace(',' , '.')).toFixed(2))       
-                        });
-                        }).catch((err) => {console.log('fetch', err)})
+                        return response.text();
+                    })
+                    .then(responsetxt => { parseString(responsetxt, function (err, result) {                   
+                    const nbkr_json = convert.xml2json(responsetxt, {compact: true, spaces: 4});
+                    console.log(nbkr_json);
+        setMyjson(nbkr_json) 
+        setDate_nbkr(JSON.parse(nbkr_json).CurrencyRates._attributes.Date)
+        setUsd_kurs(parseFloat(JSON.parse(nbkr_json).CurrencyRates.Currency[0].Value._text.replace(',' , '.')).toFixed(2))  
+        setEur_kurs(parseFloat(JSON.parse(nbkr_json).CurrencyRates.Currency[1].Value._text.replace(',' , '.')).toFixed(2))
+        setRub_kurs(parseFloat(JSON.parse(nbkr_json).CurrencyRates.Currency[3].Value._text.replace(',' , '.')).toFixed(2))
+                   })
+                    }).catch((err) => {console.log('Ошибка при получении данных', err)})
                 }, []);
 
                 // console.log(myjson)

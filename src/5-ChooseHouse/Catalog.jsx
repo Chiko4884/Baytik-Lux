@@ -2,7 +2,7 @@ export const Catalog = [
 
     {
         "id": 1,
-        "image": "../img/filter_img1.png",
+        "image": "./img/filter_img1.png",
         "title": "Трехэтажный загородный коттедж с плоской крышей",
         "living_area": 335,
         "construction_area": 100,

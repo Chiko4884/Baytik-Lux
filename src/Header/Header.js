@@ -30,9 +30,9 @@ function Header() {
       </div>
    
         <div className='social'>
-          <a href='https://web.telegram.org/' target='_blank'><img src='/img/telega.svg'/></a>
-          <a href='https://www.instagram.com/' target='_blank'><img src='/img/instagram.svg'/></a>
-          <a href='http://www.youtube.com/' target='_blank'><img src='/img/youtube.svg'/></a>
+          <a href='https://web.telegram.org/' target='_blank'><img src='./img/telega.svg'/></a>
+          <a href='https://www.instagram.com/' target='_blank'><img src='./img/instagram.svg'/></a>
+          <a href='http://www.youtube.com/' target='_blank'><img src='./img/youtube.svg'/></a>
         </div>
         <div className='contact'>
           <a href='https://wa.me/+996755147800?text=Здравствуйте%2C+у+меня+есть+вопрос' title="WhatsApp" target='_blank'>0550 01 22 08</a><br/>

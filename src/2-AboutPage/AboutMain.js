@@ -9,8 +9,8 @@ function AboutMain (){
     
     return(
         <div  id="ab-main" className="AboutMain">
-            <img className='dom2' src='/img/aboutpage-view.png'/>
-            <img className='der2'  src='/img/derevo_about.svg'/>
+            <img className='dom2' src='./img/aboutpage-view.png'/>
+            <img className='der2'  src='./img/derevo_about.svg'/>
             <h1 className="h1-txt"> СТРОИМ НАСТОЯЩЕЕ, СОЗДАЕМ БУДУЩЕЕ </h1>
 
             <button  onClick={() => scrollBy({ top: 710, left: 0, behavior: "smooth" })}

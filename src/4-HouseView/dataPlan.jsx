@@ -3,7 +3,7 @@ export const dataPlan = [
 
     {
         "id": 1,
-        "image": "../img/plan-slide1.png",
+        "image": "./img/plan-slide1.png",
     },
     {
         "id": 2,

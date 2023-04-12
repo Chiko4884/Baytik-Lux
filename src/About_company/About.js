@@ -6,7 +6,7 @@ function About() {
     return(
         <div className='about'>
                      
-            <img className='img-about' src='/img/about_view.png'/>
+            <img className='img-about' src='./img/about_view.png'/>
 
             <div className='company'>
                 <span className='sp'/>

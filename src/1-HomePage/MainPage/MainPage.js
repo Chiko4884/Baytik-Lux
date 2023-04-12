@@ -8,9 +8,9 @@ function MainPage() {
  
   return (
     <div className="Main">
-    <img className='dom' src='/img/View02.png'/>
-    <img className='oblaka' src='/img/background.svg'/>
-    <img className='der1'  src='/img/derevo-back1.svg'/>
+    <img className='dom' src='./img/View02.png'/>
+    <img className='oblaka' src='./img/background.svg'/>
+    <img className='der1'  src='./img/derevo-back1.svg'/>
     <p className='p-txt'> 
     <span className='circle1'></span> 
     <span className='circle2'></span> 

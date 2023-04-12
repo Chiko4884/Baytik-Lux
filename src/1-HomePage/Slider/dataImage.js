@@ -3,7 +3,7 @@ export const dataImage = [
 
     {
         "id": 1,
-        "image": "../img/slide1.png",
+        "image": "./img/slide1.png",
         "title": "Трехэтажный загородный коттедж с плоской крышей",
         "area": "335 м2",
         "floor": " 2 этажа"

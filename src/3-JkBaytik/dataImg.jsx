@@ -3,7 +3,7 @@ export const dataImg = [
 
     {
         "id": 1,
-        "image": "../img/minislider1.png",
+        "image": "./img/minislider1.png",
     },
     {
         "id": 2,
