@@ -34,12 +34,12 @@ function Footer(){
             <div className="bl-social">
                 <h3>Мы в социальных сетях</h3>
                     <div className='social1'>
-                    <a target='_blank' href='https://www.facebook.com/'><img src='/img/facebook.svg'/></a>
-                    <a target='_blank' href='https://www.instagram.com/'><img src='/img/instagram2.svg'/></a>
-                    <a target='_blank' href='https://web.telegram.org/'><img src='/img/telegram2.svg'/></a>
-                    <a target='_blank' href='https://www.linkedin.com/'><img src='/img/linkedin.svg'/></a>
-                    <a target='_blank' href='http://www.youtube.com/'><img src='/img/youtube2.svg'/></a>
-                    <a target='_blank' href='https://www.vk.com/'><img src='/img/vk.svg'/></a>
+                    <a target='_blank' href='https://www.facebook.com/'><img src='./img/facebook.svg'/></a>
+                    <a target='_blank' href='https://www.instagram.com/'><img src='./img/instagram2.svg'/></a>
+                    <a target='_blank' href='https://web.telegram.org/'><img src='./img/telegram2.svg'/></a>
+                    <a target='_blank' href='https://www.linkedin.com/'><img src='./img/linkedin.svg'/></a>
+                    <a target='_blank' href='http://www.youtube.com/'><img src='./img/youtube2.svg'/></a>
+                    <a target='_blank' href='https://www.vk.com/'><img src='./img/vk.svg'/></a>
                     </div>
             </div>
             <div className="bl-address">

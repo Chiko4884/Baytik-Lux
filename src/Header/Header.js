@@ -12,7 +12,7 @@ function Header() {
     <div>
   <header>
   <div className="Header">
-      <img className='logo' src="/img/logo.svg" alt='LogoHeader'/>
+      <img className='logo' src="./img/logo.svg" alt='LogoHeader'/>
         <div className='nav-con'>
         <div className='navlink'>
         <NavLink className='link' to='/'>Главная</NavLink>

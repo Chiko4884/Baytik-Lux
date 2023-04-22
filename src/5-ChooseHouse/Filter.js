@@ -74,7 +74,7 @@ const filterResultGazobeton = (catItem) => {
 
     return(
         <div className="container">
-             <img className='der-fil' src='/img/derevo-filter.svg' alt="der"/>
+             <img className='der-fil' src='./img/derevo-filter.svg' alt="der"/>
 
             <div className="filter">
 
