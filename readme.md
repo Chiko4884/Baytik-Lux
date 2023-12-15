@@ -1,3 +1,3 @@
 # Baytik lux
 
-Baytik-Lux - project intern at Navis academy
+Baytik-Lux - trainee's work at the Navis Academy
