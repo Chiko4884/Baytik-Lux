@@ -24,4 +24,5 @@ jobs:
 
       - name: Run proxy server
         run: |
+          cd server
           node proxy.js
