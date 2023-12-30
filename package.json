@@ -1,8 +1,8 @@
 {
+  "homepage": "https://Chiko4884.github.io/Baytik-Lux",
   "name": "baytik-lux",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
@@ -42,6 +42,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "concurrently \"npm run start\" \"node server/proxy.js\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -67,6 +69,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "react-native-xml2js": "^1.0.3",
     "sass": "^1.56.1"
   }
