@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "./static/css/main.fc847c11.css",
-    "main.js": "./static/js/main.6a939b16.js",
-    "static/media/slick.svg": "./static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "./static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "./static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/chat.svg": "./static/media/chat.6c0f3444d48c82510e94.svg",
-    "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
-    "static/media/before335.svg": "./static/media/before335.f7a48cdecb5c4138eb83.svg",
-    "index.html": "./index.html",
-    "static/media/mini_prev.svg": "./static/media/mini_prev.3fada3a121fb7b56e7cc.svg",
-    "static/media/mini_next.svg": "./static/media/mini_next.c9f27cd7b3efbd3d9f62.svg",
-    "static/media/banner.svg": "./static/media/banner.86b77c145aa700578100.svg",
-    "main.fc847c11.css.map": "./static/css/main.fc847c11.css.map",
-    "main.6a939b16.js.map": "./static/js/main.6a939b16.js.map"
+    "main.css": "/Baytik-Lux/static/css/main.18d661db.css",
+    "main.js": "/Baytik-Lux/static/js/main.6a939b16.js",
+    "static/media/slick.svg": "/Baytik-Lux/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Baytik-Lux/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Baytik-Lux/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/chat.svg": "/Baytik-Lux/static/media/chat.6c0f3444d48c82510e94.svg",
+    "static/media/slick.woff": "/Baytik-Lux/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/before335.svg": "/Baytik-Lux/static/media/before335.f7a48cdecb5c4138eb83.svg",
+    "index.html": "/Baytik-Lux/index.html",
+    "static/media/mini_prev.svg": "/Baytik-Lux/static/media/mini_prev.3fada3a121fb7b56e7cc.svg",
+    "static/media/mini_next.svg": "/Baytik-Lux/static/media/mini_next.c9f27cd7b3efbd3d9f62.svg",
+    "static/media/banner.svg": "/Baytik-Lux/static/media/banner.86b77c145aa700578100.svg",
+    "main.18d661db.css.map": "/Baytik-Lux/static/css/main.18d661db.css.map",
+    "main.6a939b16.js.map": "/Baytik-Lux/static/js/main.6a939b16.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc847c11.css",
+    "static/css/main.18d661db.css",
     "static/js/main.6a939b16.js"
   ]
 }
